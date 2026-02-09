@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#fde7eb, #f9d9e2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+h1 span {
+  color: #e84b7f;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #e84b7f;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+}
